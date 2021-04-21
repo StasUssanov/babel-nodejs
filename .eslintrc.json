@@ -1,0 +1,27 @@
+{
+  "env": {
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+  "plugins": [
+    "babel",
+    "promise",
+    "import",
+    "lodash"
+  ],
+  "extends": [
+    "airbnb-base",
+    "plugin:promise/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:lodash/recommended"
+  ],
+  "rules": {
+    // eslint не будет показывать ошибку на вызов console.log()
+    "no-console": 0
+  }
+}
