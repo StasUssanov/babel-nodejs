@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.13.16",
     "@babel/core": "^7.13.16",
@@ -18,11 +19,13 @@
     "eslint-plugin-lodash": "^7.2.0",
     "eslint-plugin-promise": "^5.1.0",
     "jest": "^26.6.3",
-    "jest-cli": "^26.6.3"
+    "jest-cli": "^26.6.3",
+    "nodemon": "^2.0.7"
   },
   "scripts": {
     "babel-node": "babel-node",
     "test": "jest",
+    "start": "nodemon --exec yarn run babel-node -- ./index.js",
     "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
     "prod": "yarn run build"
   }
