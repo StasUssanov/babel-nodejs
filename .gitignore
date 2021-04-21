@@ -1,0 +1,8 @@
+# git rm -r -f --cached .
+
+/.idea/
+/node_modules
+/dist
+npm-debug.log
+yarn-error.log
+.env
