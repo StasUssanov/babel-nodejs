@@ -1,6 +1,7 @@
 {
   "env": {
-    "node": true
+    "node": true,
+    "jest": true
   },
   "parser": "babel-eslint",
   "parserOptions": {
@@ -11,14 +12,16 @@
     "babel",
     "promise",
     "import",
-    "lodash"
+    "lodash",
+    "jest"
   ],
   "extends": [
     "airbnb-base",
     "plugin:promise/recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
-    "plugin:lodash/recommended"
+    "plugin:lodash/recommended",
+    "plugin:jest/recommended"
   ],
   "rules": {
     // eslint не будет показывать ошибку на вызов console.log()

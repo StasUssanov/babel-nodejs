@@ -1,4 +1,4 @@
-# Базовой проект NodeJS с Babel 7, eslint, jest.
+# Базовый проект NodeJS с Babel 7, Eslint, Jest.
 
 - Babel - это компилятор языка JavaScript и настраиваемый странспайлер.
 - Eslint для автоматической проверки синтаксиса набираемого кода.
@@ -32,3 +32,5 @@ airbnb.
 
 [eslint-plugin-promise](https://github.com/xjamundx/eslint-plugin-promise) - Плагин, который поможет вам писать
 правильные промисы и защитит вас от типичных ошибок при работе с ними.
+
+## Jest
